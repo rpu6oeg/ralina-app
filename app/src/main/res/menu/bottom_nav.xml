@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_1"
+        android:icon="@drawable/bottom_nav_item1"
+        android:title="Documents"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_2"
+        android:icon="@drawable/bottom_nav_item2"
+        android:title="Reader Mode"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_3"
+        android:icon="@drawable/bottom_nav_item3"
+        android:title="Settings"
+        app:showAsAction="ifRoom" />
+</menu>

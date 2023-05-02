@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSettingTitle"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Settings"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Writing"
+        android:textAllCaps="true"
+        android:textColor="@color/colorGrey" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/auto_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSettingTitle"
+        android:padding="15dp"
+        android:text="Auto Save"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        app:thumbTint="@color/colorWhite"
+        app:trackTint="@color/switch_track" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/word_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSettingTitle"
+        android:padding="15dp"
+        android:text="Show Word Count"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        app:thumbTint="@color/colorWhite"
+        app:trackTint="@color/switch_track" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Other"
+        android:textAllCaps="true"
+        android:textColor="@color/colorGrey" />
+
+    <TextView
+        android:id="@+id/help_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSettingTitle"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:padding="15dp"
+        android:text="Help and Feedback"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSettingTitle"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:padding="15dp"
+        android:text="Privacy Policy"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:tint="@color/colorGrey"
+        app:srcCompat="@drawable/ic_logo_on_white" />
+</LinearLayout>
